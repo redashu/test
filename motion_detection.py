@@ -5,7 +5,6 @@ import  cv2
 #  start camera
 cap=cv2.VideoCapture(0)
 
-
 # capture 3 consecutive frames
 take_frame1=cap.read()[1]
 take_frame2=cap.read()[1]
@@ -39,13 +38,4 @@ while  cap.isOpened():
 
 cv2.destroyAllWindows()
 cap.release()
-
-	
-
-
-
-
-
- 
-
 
